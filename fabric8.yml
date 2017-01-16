@@ -1,4 +1,5 @@
 ---
+pipeline: "workflows/maven/CanaryRelease/Jenkinsfile"
 buildName: "performance-component-analysis"
 codeReview: false
 links:
@@ -9,5 +10,4 @@ links:
   Testing: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-testing"
 environments:
   Testing: "f8-testing"
-  Staging: "f8-staging"
-  Production: "f8-prod"
+useLocalFlow: true
