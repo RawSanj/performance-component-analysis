@@ -1,0 +1,13 @@
+---
+buildName: "performance-component-analysis"
+codeReview: false
+links:
+  Git: "https://github.com/RawSanj/performance-component-analysis.git"
+  Job: "http://jenkins.f8.54.183.138.38.xip.io/job/performance-component-analysis"
+  Production: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-prod"
+  Staging: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-staging"
+  Testing: "http://10.200.77.25:80/kubernetes/pods?namespace=f8-testing"
+environments:
+  Testing: "f8-testing"
+  Staging: "f8-staging"
+  Production: "f8-prod"
