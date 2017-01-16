@@ -1,18 +1,12 @@
-server:
-  port: 8080
-  
----
 spring:
-  profiles: local-mssql
   datasource:
-    url: jdbc:mysql://localhost:3306/ad_f33ba6ada231ff9?useSSL=false&user=root&password=root
-    username: root
-    password: root
+    url: jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_8faae819f4481eb?user=be301fdf3a1134&password=f7c59416
+    username: be301fdf3a1134
+    password: f7c59416
     dbcp:
-      max-active: 5
+      max-active: 4
     tomcat:
-      max-active: 5
- 
+      max-active: 4
 ---
 server:
   context-path: /
@@ -30,4 +24,4 @@ spring:
 spring:
   datasource:
     url:
-      jdbc:mysql://localhost:3306/ad_f33ba6ada231ff9?useSSL=false&user=root&password=root
+      jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_8faae819f4481eb?user=be301fdf3a1134&password=f7c59416
